@@ -1,0 +1,3 @@
+# src/lib/ — internal shared code (helpers, framework-called hooks like a
+# server-attach). lib is importable directly (relative or via a named exports
+# subpath) and is SHARED across composed instances; composed leaves are not.

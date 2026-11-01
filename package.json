@@ -1,0 +1,29 @@
+{
+	"name": "@cldmv/digby-ext-views",
+	"version": "0.0.1",
+	"description": "Views — built on @cldmv/rummage.",
+	"type": "module",
+	"license": "Apache-2.0",
+	"author": { "name": "Shinrai", "company": "CLDMV", "email": "git+npm@cldmv.net", "url": "https://cldmv.net" },
+	"contributors": [{ "name": "CLDMV", "url": "https://github.com/CLDMV" }],
+	"funding": { "type": "github", "url": "https://github.com/sponsors/shinrai" },
+	"publishConfig": { "access": "public" },
+	"sideEffects": false,
+	"engines": { "node": ">=22.5.0" },
+	"repository": { "type": "git", "url": "git+https://github.com/CLDMV/digby-ext-views.git" },
+	"bugs": { "url": "https://github.com/CLDMV/digby-ext-views/issues" },
+	"homepage": "https://github.com/CLDMV/digby-ext-views#readme",
+	"main": "./src/api/views/views.mjs",
+	"exports": {
+		".": "./src/api/views/views.mjs",
+		"./api": "./src/api/views/views.mjs",
+		"./view": "./src/view/views/views.mjs",
+		"./package.json": "./package.json"
+	},
+	"files": ["src/", "sql/", "docs/", "rummage.manifest.mjs", "LICENSE", "README.md"],
+	"scripts": {
+		"generate": "rummage generate",
+		"generate:check": "rummage check"
+	},
+	"peerDependencies": { "@cldmv/rummage": "^0.1.359" }
+}

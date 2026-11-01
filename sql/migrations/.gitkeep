@@ -1,0 +1,2 @@
+# Keep this dir committed before any migrations exist. Add migrations with
+# `npm run generate` (drizzle-kit) — never hand-write one.
