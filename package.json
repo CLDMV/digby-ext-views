@@ -25,5 +25,6 @@
 		"generate": "rummage generate",
 		"generate:check": "rummage check"
 	},
-	"peerDependencies": { "@cldmv/rummage": "^0.1.359" }
+	"peerDependencies": { "@cldmv/rummage": "^0.1.0" },
+	"devDependencies": { "@cldmv/rummage": "workspace:*" }
 }
